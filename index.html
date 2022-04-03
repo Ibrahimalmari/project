@@ -1,0 +1,843 @@
+<html>
+                <head>
+                      <meta charset="utf-8" />
+                      <meta name="viewport" content="width=device-width, initial-scale=1" />
+                      <title><?php echo $tite ?></title>
+                      <link href="bootstrap.min.css" type="text/css" rel="stylesheet" />
+                      <link href="all.min.css" type="text/css" rel="stylesheet" />
+                      <link href="H.css" type="text/css" rel="stylesheet" />
+                      <link href="Hover-master/css/hover.css" type="text/css" rel="stylesheet" />
+                      <link href="WOW-master/css/libs/animate.css" type="text/css" rel="stylesheet"/>
+                      <script src="jquery-3.5.1.min.js" type="text/javascript"></script>
+                        <script type="text/javascript" src="bootstrap.min.js"></script>
+                      <script src="H.js"></script>
+                      <script src="WOW-master/dist/wow.min.js"></script>
+                      <script> new WOW().init()</script>
+                    </head>
+<body>
+    <section class="head">
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-8 col-sm-4 d-sm-none d-md-none d-lg-block d-xs-none">
+        <i class="fas fa-phone"></i>
+         phone:+63 099861863 
+        company:+63 3411446834
+        office:+63 1285686066
+        </div>
+        <div class="col-lg-3 col-sm-4  d-sm-none d-md-none d-lg-block d-xs-none">
+     <i class="far fa-envelope"></i> realestate@gmail.com
+        </div>
+        <div class="col-lg-1 col-sm-4  d-sm-none d-md-none d-lg-block d-xs-none">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        </div>
+        </div>
+        </section>    
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<nav class="navbar navbar-expand-lg  navbar-light fixed-top bg ">
+<div class="container">
+<a class="navbar-brand" href="#"><m style="color:black" >Alm</m><b style="color: red;" >asri</b></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ml-auto ">
+<li class="nav-item">
+<a class="nav-link" href="index.html">HOME</a>    
+</li>
+<li class="nav-item">
+ <a class="nav-link" href="about.html">About</a>   
+</li>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" >services</a>
+    <div style="border-top: 2px solid red; background-color: rgb(1, 16, 26);" class="dropdown-menu " aria-labelledby="navbarDropdown">
+     <a class="dropdown-item" href="#">real estate</a>
+     <a class="dropdown-item" href="#">construction</a>
+     <a class="dropdown-item" href="#">property management</a>
+     <div class="dropdown-divider"></div>
+     <a class="dropdown-item" href="#">renovation</a>
+    </div>
+   </li>
+   <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+</ul>
+<form class="form-inline my-2 mx-2">
+<input type="search" class="form-control" placeholder="search" aria-label="Search"> 
+<button class="btn btn-outline-success  my-2 mx-2" type="submit">search</button>
+</form>
+</div>
+</div>
+</nav>
+<nav style="color: rgb(154, 188, 207);" aria-label="breadcrumb text">
+  <ol class="breadcrumb">
+    <li  class="breadcrumb-item"><a style="color: rgb(37, 72, 92);" href="login.html"><i style="padding: 10px;" class="fas fa-user "></i>Login</a></li>
+    <li class="breadcrumb-item active "style="color: rgb(37, 72, 92);" ><a style="color: rgb(37, 72, 92);" href="wishlist.html"><i i style="padding: 10px;" class="fas fa-heart"></i>Wishlist</a></li>
+  </ol>
+</div>
+</nav>
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<section class="content">
+  <div class="container">
+  <div class="content-1 ">
+  <div class="c-h text-center">
+    <a href="#">
+  <i class="fas fa-house-user"></i>
+  house |
+</a>
+<a href="#">
+  <i class="fas fa-globe-americas"></i>
+  land |
+</a>
+<a href="#">
+  <i class="fas fa-briefcase"></i>
+  commercial
+</a>
+  </div>
+  <!-------------------------------------------------------------------------------------------------- options-->
+  <div class="row w-100 option ">
+ <div class="col-lg-3 col-md-3 col-sm-6 ">    
+<select class="form-control form-group">
+<option value="" disabled selected hidden>Type</option>
+<option>Houses</option> 
+<option>Apartments</option> 
+<option>villas</option>
+<option>projects</option>
+</select>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-6">   
+<select class="form-control form-group">
+  <option value="" disabled selected hidden>Location</option>
+  <option>All</option> 
+  <option>Damascus</option> 
+  <option>Homs</option>
+  <option>Hama</option>
+  <option>Aleppo</option>
+  <option>Daraa</option>
+  <option>Tartous</option>
+  <option>Latakia</option>
+  <option>Idlib</option>
+  <option>Hasakah</option>
+  <option>Quneitra</option>
+  <option>Suida</option>
+  </select>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-6">    
+  <input type="text" class="form-control form-group " placeholder="Keyword">
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6">    
+      <input type="text" class="form-control form-group" placeholder="Reference Code">
+        </div>
+</div>
+<div class="container">
+<div class="row">
+ <div class="col-lg-3 offset-lg-1">
+ <div class="text-center">
+<center style=" font-style: italic;" >Badroom</center>
+<select class="form-control form-group">
+<option value="" disabled selected hidden>Any</option>
+<option>Any</option>
+<option>1 Badroom</option>
+<option>2 Badroom</option>
+<option>3 Badroom</option>
+<option>more than 3 Badroom</option>
+</select>
+ </div> 
+</div>
+
+<div class="col-lg-3 offset-lg-4 ">
+  <center style=" font-style: italic;" >Bathroom</center>
+  <select class="form-control form-group ">
+  <option value="" disabled selected hidden>Any</option>
+  <option>Any</option>
+  <option>1 Bathroom</option>
+  <option>2 Bathroom</option>
+  <option>3 Bathroom</option>
+  <option>more than 3 Bathroom</option>
+  </select>
+</div>
+</div> 
+<button style="padding-left: 15px; padding-right:15px;" type="button" class="form-group offset-lg-5 bg-dark py-2 px-2 btn-lg btn-primary">search for your ideal property</button>
+</div>
+ </div>
+ </div>
+</section>
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<section class="body m-5 display-4 ">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <p>LATEST PROPERTIES</p>
+    </div>
+    <div class="col-lg-6 mt-4">
+      <hr style="background:black;  ; ">
+    </div>
+  </div>
+  <!----------------------------------------------------------------------------------------------------------------->
+  <div class="row">
+<div class="col-lg-4 col-md-6  ">
+  <div style="margin: 20px; margin-bottom: 250px; z-index: -2;" >
+  <div id="carouselExampleControls" class="carousel slide ph " data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="photo/alejandra-cifre-gonzalez-ylyn5r4vxcA-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="photo/m-f-s-iRnW3_0FIQY-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<div class="img">
+<span style="color:cadetblue; font-size: 30px; position:absolute;top:490px;margin-left:15px;">250.000$</span>
+<b style="font-size:20px; position:absolute;top:530px; margin-left:15px ;">stone house with swimming pool-kamilari</b>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:15px;" class="fas fa-home"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">Houses</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:80px;" class="fas fa-bed"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">3 Beds</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:160px;"  class="fas fa-bath"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">2 Baths</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:230px;" class="fas fa-ruler-combined"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">130 m<sup>2</sup> </p></i>
+<span style=" font-weight: bold; font-size:13px; position:absolute;top:500px; margin-left:230px;">Ref N:#1203</span>
+</div>
+</div>
+</div>
+  <!----------------------------------------------------------------------------------------------------------------------------------------------------------------photo2-->
+    <div class="col-lg-4 col-md-6  ">
+      <div style="margin:20px; margin-bottom:250px; z-index:-2" >
+      <div id="carouselExampleControls1" class="carousel slide  ph" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="photo/durian-bullet-JCMQo028t3Q-unsplash.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="photo/collov-home-design--aDGbdTsBZg-unsplash.jpg" class="d-block w-100" alt="...">
+        
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <div class="img">
+    <span style="color:cadetblue; font-size: 30px; position:absolute;top:490px;margin-left:15px;">450.000$</span>
+    <b style="font-size:20px; position:absolute;top:530px; margin-left:15px ;">stone house with swimming pool-kamilari</b>
+    <i style="font-size:10px; position:absolute;top:620px; margin-left:15px;" class="fas fa-home"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">Houses</p></i>
+    <i style="font-size:10px; position:absolute;top:620px; margin-left:80px;" class="fas fa-bed"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">2 Beds</p></i>
+    <i style="font-size:10px; position:absolute;top:620px; margin-left:160px;"  class="fas fa-bath"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">2 Baths</p></i>
+    <i style="font-size:10px; position:absolute;top:620px; margin-left:230px;" class="fas fa-ruler-combined"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">90 m<sup>2</sup> </p></i>
+    <span style=" font-weight: bold; font-size:12px; position:absolute;top:500px; margin-left:230px;">Ref N:#1613</span>
+    </div>
+    </div>
+  </div>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------photo3-->
+  <div class="col-lg-4 col-md-6  ">
+    <div style="margin:20px; margin-bottom:250px; z-index:-2" >
+    <div id="carouselExampleControls2" class="carousel slide  ph" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="photo/toa-heftiba-ww_18Ti24Zo-unsplash.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="photo/jakob-owens-XKLZia7hPYI-unsplash.jpg" class="d-block w-100" alt="...">
+      
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  <div class="img">
+  <span style="color:cadetblue; font-size: 30px; position:absolute;top:490px;margin-left:15px;">150.000$</span>
+  <b style="font-size:20px; position:absolute;top:530px; margin-left:15px ;">stone house with swimming pool-kamilari</b>
+  <i style="font-size:10px; position:absolute;top:620px; margin-left:15px;" class="fas fa-home"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">Houses</p></i>
+  <i style="font-size:10px; position:absolute;top:620px; margin-left:80px;" class="fas fa-bed"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">3 Beds</p></i>
+  <i style="font-size:10px; position:absolute;top:620px; margin-left:160px;"  class="fas fa-bath"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">2 Baths</p></i>
+  <i style="font-size:10px; position:absolute;top:620px; margin-left:230px;" class="fas fa-ruler-combined"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">70 m<sup>2</sup> </p></i>
+  <span style=" font-weight: bold; font-size:12px; position:absolute;top:500px; margin-left:230px;">Ref N:#1603</span>
+  </div>
+  </div>
+</div>  
+<!-------------------------------------------------------------------------------------------------------------------------------------------photo4------------------------------->
+<div class="col-lg-4 col-md-6  ">
+  <div style="margin:20px; margin-bottom:250px; z-index:-2" >
+  <div id="carouselExampleControls3" class="carousel slide  ph" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="photo/geronimo-giqueaux-DvstzMSJq2E-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="photo/roberto-nickson-rEJxpBskj3Q-unsplash.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<div class="img">
+<span style="color:cadetblue; font-size: 30px; position:absolute;top:490px;margin-left:15px;">550.000$</span>
+<b style="font-size:20px; position:absolute;top:530px; margin-left:15px ;">stone house with swimming pool-kamilari</b>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:15px;" class="fas fa-home"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">Houses</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:80px;" class="fas fa-bed"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">3 Beds</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:160px;"  class="fas fa-bath"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">2 Baths</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:230px;" class="fas fa-ruler-combined"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">70 m<sup>2</sup> </p></i>
+<span style=" font-weight: bold; font-size:12px; position:absolute;top:500px; margin-left:230px;">Ref N:#1613</span>
+</div>
+</div>
+</div> 
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="col-lg-4 col-md-6  ">
+  <div style="margin:20px; margin-bottom:250px; z-index:-2" >
+  <div id="carouselExampleControls4" class="carousel slide  ph" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="photo/erik-mclean-N9qV1KH8e8U-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="photo/michael-oxendine-GHCVUtBECuY-unsplash.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<div class="img">
+<span style="color:cadetblue; font-size: 30px; position:absolute;top:490px;margin-left:15px;">650.000$</span>
+<b style="font-size:20px; position:absolute;top:530px; margin-left:15px ;">stone house with swimming pool-kamilari</b>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:15px;" class="fas fa-home"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">Houses</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:80px;" class="fas fa-bed"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">3 Beds</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:160px;"  class="fas fa-bath"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">2 Baths</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:230px;" class="fas fa-ruler-combined"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">70 m<sup>2</sup> </p></i>
+<span style=" font-weight: bold; font-size:12px; position:absolute;top:500px; margin-left:230px;">Ref N:#1213</span>
+</div>
+</div>
+</div> 
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------photo5-->
+<div class="col-lg-4 col-md-6  ">
+  <div style="margin:20px; margin-bottom:250px; z-index:-2" >
+  <div id="carouselExampleControls5" class="carousel slide  ph" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="photo/j-remus-sZ9F_XkGJfI-unsplash.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="photo/darshan-chudasama-u81TiED6_xA-unsplash.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls5" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls5" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<div class="img">
+<span style="color:cadetblue; font-size: 30px; position:absolute;top:490px;margin-left:15px;">350.000$</span>
+<b style="font-size:20px; position:absolute;top:530px; margin-left:15px ;">stone house with swimming pool-kamilari</b>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:15px;" class="fas fa-home"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">Houses</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:80px;" class="fas fa-bed"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">3 Beds</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:160px;"  class="fas fa-bath"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">2 Baths</p></i>
+<i style="font-size:10px; position:absolute;top:620px; margin-left:230px;" class="fas fa-ruler-combined"><br><p style="font-size:12px;margin-top:5px; margin-left:-3px; ">70 m<sup>2</sup> </p></i>
+<span style=" font-weight: bold; font-size:12px; position:absolute;top:500px; margin-left:230px;">Ref N:#1613</span>
+</div>
+</div>
+</div> 
+</div>
+<div class="col-sm-12 text-center">
+<span style="padding-left: 100px; padding-right: 100px;"  class="btn btn-lg  btn-secondary  my-2 mx-2" >Load More Property</span>
+</div>
+    </div>
+</section>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------- section3--------------->
+<section class="offers">
+<div class="container">
+<div id="carouselExampleControls100" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+<div class="row">
+<div class="col-lg-5">
+<h2>MOUNTHLY OFFERS</h2>
+<br>
+<h5 style="color: gray;">SY.Latakia</h5>
+<h2 style="color:rgb(111, 212, 212);">Superb plots next to the Sea</h2>
+<br>
+<font style="color: rgb(34, 71, 95); font-size: 15px; margin-right: 10px;"><del>350000$</del> </font>
+<span style="color: rgb(16, 185, 185); font-size: 25px;">320000$</span>
+<span style="color: rgb(34, 71, 95); font-size: 15px; float: right;" >Ref N~:1520</span>
+<br>
+<br>
+<span style="color: rgb(34, 71, 95); font-size: 18px;">This villa was built in 2014 in a very quiet neighborhood near latakia in north west syria. The plots offer seclusion, privacy and extraordinary views to the syrian sea. Each section measures approximately 16.000m2 with buildability of 360m2 per plot. The owners are willing to sell with the building permit included and the potential owner can get involved in the planning pro...</span>
+<br>
+<i style="font-size:15px; margin-left:15px; margin-top: 15px;" class="fas fa-home"><br><p style="font-size:12px;margin-top:15px; margin-left:-3px; ">Houses</p></i>
+<br>
+<button type="button" class="btn btn-lg btn-primary">View More</button>
+</div>
+<div class="col-lg-2 mt-2" >
+<hr style="background: black; " >  
+</div>
+<div class="col-lg-5">
+<img src="photo/dame-traveler-4NreelF-_6c-unsplash.jpg" class="img-fluid ">
+</div>
+</div>
+</div>
+<!-----------------------------------------start page2---->
+<div class="carousel-item">
+  <div class="row">
+  <div class="col-lg-5">
+  <h2>MOUNTHLY OFFERS</h2>
+  <br>
+  <h5 style="color: gray;">SY.Damascus</h5>
+  <h2 style="color:rgb(111, 212, 212);">Cozy stone villa with EOT License</h2>
+  <br>
+  <font style="color: rgb(34, 71, 95); font-size: 15px; margin-right: 10px;"><del>480000$</del> </font>
+  <span style="color: rgb(16, 185, 185); font-size: 25px;">420000$</span>
+  <span style="color: rgb(34, 71, 95); font-size: 15px; float: right;" >Ref N~:1023</span>
+  <br>
+  <br>
+  <span style="color: rgb(34, 71, 95); font-size: 18px;">This is a new-built villa, cozy and luxurious at the same time, in the picturesque village of blodan. It is made of stone in neutral tones that match perfectly with the warm colors of wood that are dominant in this house. There is an open-plan kitchen and dining area in front of a beautiful corner fireplace. The large window offers lovely views t...</span>
+  <br>
+  <i style="font-size:15px; margin-left:15px; margin-top: 15px;" class="fas fa-home"><br><p style="font-size:12px;margin-top:15px; margin-left:-3px; ">Houses</p></i>
+  <br>
+  <button type="button" class="btn btn-lg btn-primary">View More</button>
+  </div>
+  <div class="col-lg-2 mt-2" >
+  <hr style="background: black; " >  
+  </div>
+  <div class="col-lg-5">
+  <img src="photo/prescott-horn-2SkQM12ARV4-unsplash.jpg" class="img-fluid ">
+  </div>
+  </div>
+  </div>
+<!------------------------------------------------------------------------------------page2-->
+</div>
+<a style="position: absolute; top: 550px; background-color:darkgrey;" class="carousel-control-prev" href="#carouselExampleControls100" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a style="position: absolute; top: 550px; background-color: darkgrey;" class="carousel-control-next" href="#carouselExampleControls100" role="button" data-slide="next">
+  </a>
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</div>
+<!---------------------------------------------------------------------------------p1-end-->
+</div>
+</section>
+<!----------------------------------------------------------------------------------------------------------------------------------our service---------------------------------------->
+<section class="our_service">
+  <div class="ser text-center">
+<div class="container">
+  <div class="row ">
+  <div class="col-lg-4 mt-3">
+    <hr style="background-color: aliceblue;">
+  </div>
+  <div class="col-lg-4">
+    <h1 style=" font-style: italic;" >our_service</h1> 
+  </div>
+<div class="col-lg-4 mt-3">
+  <hr style="background-color:aliceblue;" > 
+</div>
+</div>
+<div class="row ser1 ">
+<div class="col-lg-3 text-center">
+<i  style="font-size:50px; color: rgb(19, 114, 114); background-color: #fff; margin-left:15px; margin-top: 15px; padding: 30px;" class="fas fa-home rounded-circle "></i>
+<br>
+<br>
+<span style="color: #fff; font-size: 30px; margin-left:10px; font-weight: bold; ">REAL ESTATE</span>
+<br>
+<br>
+<span class="lead">Our goal has always been to achieve a high standard of professionalism with honesty and excellent service for our customers. We are constant...</span>
+<br>
+<br>
+<button type="button" class="btn btn-lg btn-info" >view more</button>
+</div>
+<div class="col-lg-3 text-center">
+<i style="font-size:50px; color: rgb(19, 114, 114); background-color: #fff; margin-left:15px; margin-top: 15px; padding: 30px;"  class="fas fa-hard-hat rounded-circle"></i>
+<br>
+<br>
+<span style="color: #fff; font-size: 30px; margin-left:10px; font-weight: bold; ">Construction</span>
+<br>
+<br>
+<span class="lead">The construction company "Crete Construction" has been operating for over 10 years and has steadily grown. Our team has in-depth experti...</span>
+<br>
+<br>
+<br>
+<button type="button" class="btn btn-lg btn-info" >view more</button>
+</div>
+<div class="col-lg-3 text-center ">
+  <i style="font-size:50px; color: rgb(19, 114, 114); background-color: #fff; margin-left:15px; margin-top: 15px; padding: 30px;" class="fas fa-business-time rounded-circle"></i>
+  <br>
+  <br>
+  <span style="color: #fff; font-size: 30px; margin-left:10px; font-weight: bold; ">PROPERTY MANAGEMENT</span> 
+  <br>
+  <br>
+  <span class="lead">CH Property Management is a newly registered company based in South Crete. We have seen the area grow and develop in recent years and see th...</span>
+  <br>
+  <br>
+  <button  type="button" class="btn btn-lg btn-info">View More</button>
+</div>
+<div class="col-lg-3">
+<i style="font-size:50px; color: rgb(19, 114, 114); background-color: #fff; margin-left:15px; margin-top: 15px; padding: 30px; " class="fas fa-tools rounded-circle"></i>
+<br>
+<br>
+<span style="color: #fff; font-size: 30px; margin-left:10px; font-weight: bold; ">RENOVATION</span> 
+<br>
+<br>
+<span class="lead">Properties for renovation in traditional villages across Crete. Contact us for reliable renovation contractors in the area.</span>
+<br>
+<br>
+<br>
+<button type="button" class="btn btn-lg btn-info">View More</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!------------------------------------------------------------------------------------------------------------------------------------------laster artical-------->
+<section class="KNOWN">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+ <h2 style="margin-top: 20px;">LATEST ARTICLES</h2>
+</div>
+<div class="col-lg-6">
+<hr style="background-color:black; margin-top: 40px; " >
+</div>
+</div>
+<div class="row">
+  <div class="col-lg-6 mt-5">
+  <img class="img-fluid w-100" src="photo/philippe-beliveau-kquCyeRElxE-unsplash.jpg">
+  <br>
+  <br>
+  <span style="float: left;"><i class="fas fa-calendar-alt"></i> 5/10/2021</span>
+  <span style="float: right;"><i class="fas fa-newspaper"></i> News</span>
+  <br>
+  <br>
+  <span >Recently, several important road projects have been completed in syria.&nbsp;Today, however, we would like to write to you about a completely diff...</span>
+ <br>
+ <br>
+ <button type="button" class="btn btn-lg btn-info">Read More </button>  
+</div>
+  <div class="col-lg-6 mt-5">
+    <img class="img-fluid w-100 " src="photo/matteo-maretto-JViPJXdgbMY-unsplash.jpg">
+  <br>
+  <br>
+  <span style="float:left"><i class="fas fa-calendar-alt"></i> 2/6/2021</span>
+  <span style="float:right"><i class="fas fa-newspaper"></i> News</span>
+  <br>
+  <br>
+  <span>Agios Pavlos is becoming one of the most developed areas on the syria. Some great projects are built&nbsp; and our team has been privileged to constr...
+  </span>
+  <br>
+  <br>
+  <button type="button" class="btn btn-lg btn-info">Read More</button>
+</div> 
+<div class="col-lg-6 mt-5">
+<img class="img-fluid w-100" src="photo/david-von-diemar-JnWfxikjB-s-unsplash.jpg">
+<br>
+<br>
+<span style="float:left;"><i class="fas fa-calendar-alt"></i> 5/1-2021</span>
+<span style="float: right;"><i class="fas fa-newspaper"></i> News</span>
+<br>
+<br>
+<span>This Wednesday 10th February 2021, Creta Houses participated in a podcast on a Syria radio station, Radio FM. We were invited by Andr&eacute; Perri...</span>
+<br>
+<br>
+<button type="button" class="btn btn-lg btn-info">Read More</button>
+</div>
+<div class="col-lg-12 mt-5 text-center">
+<button style="padding-left: 30px; padding-right: 30px;" type="button" class="btn btn-lg btn-dark">More Article</button>
+</div>
+</div>
+</div>
+</section>
+<!--------------------------------------------sections select your property--------------------------------------------------------------------------------------------------------------------------->
+<section class="select_property">
+<div class="container text-center">
+<div class="row">
+<div class="col-lg-6">
+<h2>Select Your Peoperty</h2>
+</div>
+<div class="col-lg-6 mt-2">
+<hr style="background-color: black;">
+</div>
+</div>
+<!----------------------------------------------------------->
+<div id="carouselExampleControls101" class="carousel slide" data-ride="carousel">  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+<div class="row">
+<div class="col-lg-3">
+ <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >HOUSE</span>
+<img class="img-fluid w-100" src="photo/derick-mckinney-rah5oKpjMSY-unsplash.jpg">
+</div>
+<div class="col-lg-3">
+  <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >LAND</span>
+  <img class="img-fluid w-100" src="photo/codi-burley-xBILB1Fy9Zg-unsplash.jpg">
+</div>
+<div class="col-lg-3">
+  <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >Apartment</span>
+  <img class="img-fluid w-100" src="photo/devon-owens-JVXcRDu1tVI-unsplash.jpg">
+</div>
+<div class="col-lg-3">
+  <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >VILLAS</span>
+  <img class="img-fluid w-100" src="photo/guillherme-schneider-CX6-_wXxOsY-unsplash.jpg">
+</div>
+</div>
+</div>
+<div class="carousel-item">
+  <div class="row">
+    <div class="col-lg-3">
+      <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >LAND</span>
+    <img class="img-fluid w-100" src="photo/codi-burley-xBILB1Fy9Zg-unsplash.jpg">
+    </div>
+    <div class="col-lg-3">
+      <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >Apartment</span>
+      <img class="img-fluid w-100" src="photo/devon-owens-JVXcRDu1tVI-unsplash.jpg">
+    </div>
+    <div class="col-lg-3">
+      <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >VILLAS</span>
+      <img class="img-fluid w-100" src="photo/guillherme-schneider-CX6-_wXxOsY-unsplash.jpg">
+    </div>
+    <div class="col-lg-3">
+      <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >LAND&PLOTS</span>
+      <img class="img-fluid w-100" src="photo/sigmund-fmv6mszTQwM-unsplash.jpg">
+    </div>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <div class="row">
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >Apartment</span>
+      <img class="img-fluid w-100" src="photo/devon-owens-JVXcRDu1tVI-unsplash.jpg">
+      </div>
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >VILLAS</span>
+        <img class="img-fluid w-100" src="photo/guillherme-schneider-CX6-_wXxOsY-unsplash.jpg">
+      </div>
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >LAND&PLOTS</span>
+        <img class="img-fluid w-100" src="photo/sigmund-fmv6mszTQwM-unsplash.jpg">
+      </div>
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >OLIVE</span>
+        <img class="img-fluid w-100" src="photo/sigmund-w4Q9l03Qq4o-unsplash.jpg">
+      </div>
+      </div>
+  </div>
+  <div class="carousel-item">
+    <div class="row">
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >VILLAS</span>
+      <img class="img-fluid w-100" src="photo/guillherme-schneider-CX6-_wXxOsY-unsplash.jpg">
+      </div>
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >LAND&PLOTS</span>
+        <img class="img-fluid w-100" src="photo/sigmund-fmv6mszTQwM-unsplash.jpg">
+      </div>
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >OLIVE</span>
+        <img class="img-fluid w-100" src="photo/sigmund-w4Q9l03Qq4o-unsplash.jpg">
+      </div>
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >HOUSE</span>
+        <img class="img-fluid w-100" src="photo/derick-mckinney-rah5oKpjMSY-unsplash.jpg">
+      </div>
+      </div>
+  </div>
+  <div class="carousel-item">
+    <div class="row">
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >LAND&PLOTS</span>
+      <img class="img-fluid w-100" src="photo/sigmund-fmv6mszTQwM-unsplash.jpg">
+      </div>
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >OLIVE</span>
+        <img class="img-fluid w-100" src="photo/sigmund-w4Q9l03Qq4o-unsplash.jpg">
+      </div>
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >HOUSE</span>
+        <img class="img-fluid w-100" src="photo/derick-mckinney-rah5oKpjMSY-unsplash.jpg">
+      </div>
+      <div class="col-lg-3">
+        <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >LAND</span>
+        <img class="img-fluid w-100" src="photo/codi-burley-xBILB1Fy9Zg-unsplash.jpg">
+      </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-lg-3">
+          <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >OLIVE</span>
+        <img class="img-fluid w-100" src="photo/sigmund-w4Q9l03Qq4o-unsplash.jpg">
+        </div>
+        <div class="col-lg-3">
+          <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >HOUSE</span>
+          <img class="img-fluid w-100" src="photo/derick-mckinney-rah5oKpjMSY-unsplash.jpg">
+        </div>
+        <div class="col-lg-3">
+          <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >LAND</span>
+          <img class="img-fluid w-100" src="photo/codi-burley-xBILB1Fy9Zg-unsplash.jpg">
+        </div>
+        <div class="col-lg-3">
+          <span style="padding: 20px; color: white; background-color: rgb(23, 56, 59);" >Apartment</span>
+          <img class="img-fluid w-100" src="photo/devon-owens-JVXcRDu1tVI-unsplash.jpg">
+        </div>
+        </div>
+    </div>
+    </div>
+<a class="carousel-control-prev" href="#carouselExampleControls101" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleControls101" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+</section>
+<!--------------------------------------------------------------------------NEWES-------------------------------->
+<section class="NE">
+  <div class="sh">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<h2>NEWSLETTER</h2>
+<div class="">Subscribe to our newsletter to find out first about amazing Real Estate opportunities in kasb. Receive all the new offers and discounted prices and get educated about the legal process of buying property in syria</div>
+<div id="cur">
+<span>Use terms privacy<abbr style="float: right;">+</abbr></span>
+</div>
+<hr style="background-color: #fff;">
+<span class="complete">
+  We take pride in sending out emails that are not an annoyance to our client base. We only send out offers and new property listings on a weekly basis and you can opt-out of our mailing list anytime you want by following the link at the bottom of each email you receive. We are committed to not sell or transfer your personal data to third-party providers.  
+</span>
+</div>
+<!------------------>
+<div class="col-lg-6">
+ <input  class="text_email " type="text" placeholder="Email">
+ <button type="button" class="btn btn-lg btn-secondary rounded-circle"><i class="fas fa-angle-right" ></i></button>
+<br>
+<span class="input-group rad">
+  <input  type="radio" >
+  <p>I agree with the use terms & privacy</p>
+</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!----------------------------------------------------------footer--------------------------------------------------------->
+<section class="footer">
+<div class="container">
+<div class="row">
+<div class="col-lg-4">
+<h2 style="font-style: italic; color: black;">Alm<m style="color: red;">asri</m></h2>
+<p>Real Estate & Constructions</p>
+<span><i class="fas fa-map-marker-alt fa-2x mt-2"></i><hr style="background-color: #fff; transform: rotate(90deg); width:50px; margin-left:15px; margin-top:-10px;"></span>
+<span style="position: absolute;top:100px;left:80px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Syria-Damascus</span>
+<br>
+<br>
+<!------1---->
+<span><i class="fas fa-phone fa-2x mt-3"></i><hr style="background-color: #fff; transform: rotate(90deg); width:100px; margin-left:-10px; margin-top:5px;"></span>
+<span style="position: absolute;top:170px;left:80px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">office:<a class="link" " href="#"> +63 0992861863</a><br>[08:00-->17:30]</span>
+<!-------2----->
+<span style="position: absolute;top:220px;left:80px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">a Telephone line:<a class="link" " href="#"> 011 3421076</a></span>
+<span style="position: absolute;top:250px;left:80px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">a Telephone line:<a class="link" " href="#"> 011 3425676</a></span>
+<!-----3----->
+<span><i style="margin-top: 60px;"  class="far fa-envelope fa-2x  "></i><hr style="background-color: #fff; transform: rotate(90deg); width:50px; margin-left:15px; margin-top:-7px;"></span>
+
+<span style="position: absolute;top:320px;left:80px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><a class="link" " href="#"> AlmasriHouse21@gmail.com</a></span>
+
+</div>
+<!------------part1------->
+<div class="col-lg-2">
+<h3 style="margin:40px;">MENU</h3><hr style="margin-top:-35px;   background-color: #fff; width: 60px;">
+<a class="link2" href="#" >Home</a>
+<a class="link2" href="#" >About</a>
+<a class="link2" href="#" >Service</a>
+<a class="link2" href="#" >Company</a>
+<br>
+<h3 style="margin:40px;">SERVICE</h3>
+<hr style="margin-top:-35px;   background-color: #fff; width: 60px;">
+<a class="link5" href="#" >Real estate</a>
+<a class="link5" href="#" >Construction</a>
+<a class="link5" href="#" >Property M</a>
+<a class="link5" href="#" >Renovation</a>
+</div>
+<!-------------part2----------->
+<div class="col-lg-3">
+<h3 style="padding:40px;">PROPERTIES</h3>
+<hr style="margin-top:-35px;   background-color: #fff; width: 140px;">
+<a class="link3" href="#">Houses</a>
+<a class="link3" href="#">Apartments</a>
+<a class="link3" href="#">villas</a>
+<a class="link3" href="#">Land&Plots</a>
+<a class="link3" href="#">projects</a>
+<a class="link3" href="#">Renovations</a>
+<a class="link3" href="#">Constructions</a>
+</div>
+<!--------------part3--------------->
+<div class="col-lg-3">
+  <h3 style="padding:40px;" >TERMS OF USE</h3>
+  <hr style="margin-top:-35px;   background-color: #fff; width: 140px;">
+  <a class="link3" href="#">Privacy policy </a>
+<a class="link3" href="#">Terms of use</a>
+<a class="link3" href="#">Technical Support</a>
+<a class="link3" href="#">Cookies policy</a>
+<a class="link3" href="#">NewsLetter</a>
+<br>
+<h3 style="padding:40px;">FOLLOW US</h3>
+<hr style="margin-top:-35px;   background-color: #fff; width: 140px;">
+<a class="link4" href="#">
+<i class="fab fa-instagram fa-2x "></i></a>
+<a   class="link4" href="#"><i class="fab fa-facebook-square fa-2x "></i></a>
+<a  class="link4" href="#"><i class="fab fa-youtube fa-2x "></i></a>
+</div>
+<!--------------part4--------------------->
+</div>
+</div>
+<div class="last text-center">
+<span style="font-family:'Times New Roman', Times, serif;" >Copyright2021@Almasri</span> 
+</div>
+</section>
+<!---------------end------------------------------------------------------------------------------------------------------>
+<div id="scroll-top">
+  <button type="button" class="btn btn-lg btn-secondary rounded-circle"><i class="fas fa-angle-up fa-2x"></i></button>
+</div>
+</body>
+</html>
+
+
